@@ -1,6 +1,6 @@
 # erp
 
-![erp-home]( "ERP")
+![erp](./erp-home.png)
 
 
 
