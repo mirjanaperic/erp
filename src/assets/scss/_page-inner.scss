@@ -1,0 +1,31 @@
+@import "./_variables.scss";
+
+.page-inner {
+    display: flex;
+}
+.page-inner-part-1 {
+    background-color: $secondary_color;
+}
+  .page-inner-part-2 {
+   width: 100%;
+}
+
+.large-component-part { 
+    flex-basis: 70%; 
+    max-width: 70%; 
+    margin-right: 30px;
+}
+.information-component-part {
+    flex-basis: 25%;
+    max-width: 25%;
+}
+.component-wrapp {
+    justify-content: center;
+    margin: 50px 0; 
+}
+.information-body {
+    background-color: $main_color;
+    padding: 15px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}

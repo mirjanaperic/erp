@@ -1,0 +1,104 @@
+table {
+    // border: 2px solid $border_color;
+    border-style: hidden;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: left;
+    font-size: 14px;
+}
+th {
+    background-color: $secondary_color;
+    padding: 15px 15px;
+    border: 2px solid $border_color;
+    border-collapse: collapse;
+    font-weight: bold;
+}
+td {
+    background-color: $main_color;
+    padding: 15px 15px;
+    border: 2px solid $border_color;
+    border-collapse: collapse;
+    vertical-align: top;
+}
+
+// Table pagination
+
+.table-pagination {
+    border: none;
+    border: none;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 13px 20px;
+}
+.table-bottom {
+    td {
+        background-color: $secondary-color;
+        font-weight: bold;
+    }
+}
+
+.table-pagination__flex {
+    justify-content: space-between;
+}
+.page-num {
+    background-color: $btns_color;
+    padding: 5px 8px;
+    border-radius: 5px;
+    margin: 0 5px;
+}
+
+// Table search
+.table-search {
+    padding: 15px 20px;
+    background-color: $main_color;
+}
+.input-group {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 473px;
+}
+
+.table-search__input {
+    font-size: 16px;
+    background-color: $secondary_color;
+    border: transparent;
+    padding: 0 15px 0 15px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    flex-basis: calc(100% - 59px);
+    max-width: calc(100% - 59px);
+}
+
+.btn--table-search {
+    width: 59px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $btns_color;
+    border: transparent;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.arrow--entries {
+    margin: 0 5px 5px;
+}
+.entries-search-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.num-of-entries {
+    position: relative; 
+
+    &::before {
+        position: absolute;
+        content: '';
+        width: 100%;
+        height: 2px;
+        background-color: $btns_color;
+        bottom: 0;
+        margin-bottom: -4px;
+    }
+}

@@ -1,0 +1,78 @@
+button {
+    img {
+        vertical-align: middle;
+    }
+    span {
+        vertical-align: middle;
+    }
+}
+.btn {
+    border: 1px solid transparent;
+    cursor: pointer;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    color: $main_font_color;
+}
+.btn__table {
+    border-radius: 5px;
+    display: inline-block;
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.btn--add {
+    background-color: $btn_add;
+}
+.btn--edit {
+    background-color: $btn_edit;
+}
+.btn--delete {
+    background-color: $btn_delete;
+}
+.btn--full-width {
+    display: block;
+    width: 100%;
+    padding: 13px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.btn--forms {
+    display: inline-block;
+    font-size: 16px;
+}
+.btn--calc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: $secondary_color;
+    border-right: 1px solid $lines_color;
+    div {
+        padding: 0 7px;
+        border-bottom: 1px solid $lines_color;
+        &:last-child {
+            border-bottom: none;
+        }
+    }
+}
+.btn--btns_color {
+    background: $btns_color; 
+    color: $main_font_color;
+    transition: .4s ease;
+
+    &:hover {
+        background-color: $main_color;
+    }
+}
+.btn--information {
+    border-radius: 5px;
+    transition: .4s ease; 
+    &:hover {
+        background-color: $secondary_color;
+    }
+}
+.btn--edit--diff {
+    background-color: $btns_secondary;
+}

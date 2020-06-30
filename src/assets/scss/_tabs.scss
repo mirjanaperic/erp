@@ -1,0 +1,18 @@
+.tabs {
+    width: 100%;
+    background-color: $secondary_color;
+    border-bottom: 2px solid $lines_color;
+    padding: 30px 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.tab {
+    padding: 30px;
+    border-right: 2px solid $lines_color;
+    // transition: .4s ease-in-out;
+    font-size: 16px;
+
+    &:hover {
+        border-bottom: 2px solid $btns_color;
+    }
+}
