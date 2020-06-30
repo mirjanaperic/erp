@@ -1,8 +1,9 @@
 # erp
 
-![erp](./erp-home.png)
+- Participating in the project as part of a team in Librafire, using VueJS framework. 
 
-- Participating in the project as part of a team in Librafire. 
+
+![erp](./erp-home.png)
 
 
 ## Project setup
