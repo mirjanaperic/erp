@@ -1,5 +1,4 @@
 # erp
-# Website development using HTML5, SASS, JavaScript and WordPress. 
 
 ![](erp-home.png)
 
