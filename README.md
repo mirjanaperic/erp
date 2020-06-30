@@ -2,7 +2,7 @@
 
 ![erp](./erp-home.png)
 
-
+- Participating in the project as part of a team in Librafire. 
 
 
 ## Project setup
